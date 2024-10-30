@@ -11,7 +11,7 @@ function getFirstDate() {
 function getVisitDate() {
   var firstDate = localStorage.getItem('moneyIncrAfk.visitDateTime');
   
-  return "Fun fact: You joined since " + firstDate + "!";
+  return "Fun fact: You first visited this page since " + firstDate + "!";
 }
 
 function displayCreator(name, year) {
