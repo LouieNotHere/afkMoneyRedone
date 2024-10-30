@@ -4,7 +4,7 @@ v2 of my old web project: AFK Money
 Just an afk game, I guess... except it's just a bit better.
 
 # What's new?
-- Saving System (Wallet grows overnight)
+- Better Saving System (Wallet grows overnight)
 - Redesigned UI (New font instead of monospace)
 - Real-time Balance Tracker (Keep track of your balance)
 
@@ -19,8 +19,6 @@ Q: Can I increase the money?
 A: No, unfortunately not.
 
 
-Q: Equation for the balance?
+Q: Formula for the balance?
 
-A:
-
-$$(\frac{t}{1000})*(t*0.006175)$$
+A: Look for it by exploring the source code.
