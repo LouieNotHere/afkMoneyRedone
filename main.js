@@ -38,6 +38,14 @@ function firstFunc() {
   }
 }
 
+function equationVal(x) {
+  if (x <= 10) {
+    return x;
+  } else {
+    return 10 + (x - 10) * (0.5 + 0.5 * Math.exp(-(x - 10)));
+  }
+}
+
 function greetUser() {
   var username = localStorage.getItem('moneyIncrAfk.username');
   
@@ -46,7 +54,7 @@ function greetUser() {
     "Bienvenido, ", "Welcome back, ", "Howdy, ", "Hola, ", "Kamusta, ",
     "Bonjour, ", "Welcome, ", "All hail ", "Please welcome, ", "Hey there, ",
     "Hiya, ", "Hey, ", "Heya ", "How's it going ", "Yo ",
-    "It's good to see you "];
+    "It's good to see you ", "Gluten tag ", "Ayo "];
   
   return greetings[Math.floor(Math.random() * greetings.length)] + username + "!";
 }

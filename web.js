@@ -9,7 +9,7 @@ function init() {
     
     var t = (present - fd) / 1000;
     
-    var mBalance = (t / 1000) * (t * 0.006175);
+    var mBalance = equationVal(t);
     
     balance.innerHTML = "$" + new Intl.NumberFormat().format(Math.trunc(mBalance));
     

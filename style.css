@@ -21,7 +21,8 @@ hr {
 #greeting,
 #title,
 #visitDate,
-#creator {
+#creator,
+#version {
   text-align: center;
 }
 @font-face {
