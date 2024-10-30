@@ -22,3 +22,7 @@ A: No, unfortunately not.
 Q: Formula for the balance?
 
 A: Look for it by exploring the source code.
+
+Q: Any secrets?
+
+A: Find out for yourself.
