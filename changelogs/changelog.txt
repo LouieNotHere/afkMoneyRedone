@@ -1,0 +1,13 @@
+For formula changes: https://github.com/LouieNotHere/afkMoneyRedone/tree/main/formulas.js
+
+v2.0.0
+- Initial Release
+
+v2.0.1
+- Fixed some texts grammars
+- Revamped the formula
+- Revamped the username system
+
+v2.1.0
+- Revamped the username system
+- Revamped the formula
